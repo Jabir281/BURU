@@ -1,9 +1,37 @@
-.env
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Vector DB (rebuilt from chunks.json on deploy)
 bracu_chroma_db/
+
+# Planning / docs (not needed at runtime)
+Promts/
+
+# Dev tools (not needed at runtime)
+scripts/
+data/raw/
+data/build_db.py
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Vercel
 .vercel
+
+# Frontend build artifacts
 frontend/node_modules/
 frontend/.next/
 frontend/out/
+frontend/.env
+frontend/.env.local
