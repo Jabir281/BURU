@@ -28,6 +28,7 @@ Thumbs.db
 
 # Vercel
 .vercel
+vercel.json
 
 # Frontend build artifacts
 frontend/node_modules/
