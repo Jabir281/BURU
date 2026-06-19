@@ -95,7 +95,7 @@ export default function Home() {
                   : "bg-white border border-slate-200 rounded-bl-md"
               }`}
             >
-              <p className="text-sm whitespace-pre-wrap">{msg.content}</p>
+              <p className="text-sm text-[--text] whitespace-pre-wrap">{msg.content}</p>
               {msg.sources && msg.sources.length > 0 && (
                 <div className="mt-2 pt-2 border-t border-slate-200/50">
                   <p className="text-xs font-medium text-[--text-muted] mb-1">Sources:</p>
@@ -143,7 +143,7 @@ export default function Home() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ask about BRAC University..."
-            className="flex-1 px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm outline-none focus:border-[--primary] transition-colors"
+            className="flex-1 px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm text-[--text] outline-none focus:border-[--primary] transition-colors"
             disabled={loading}
           />
           <button
