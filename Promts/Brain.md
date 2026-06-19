@@ -139,6 +139,10 @@ A: Deploy to Streamlit Cloud → share the `.streamlit.app` URL.
 | App deployed | ❌ Not yet |
 | Documentation | ✅ Documentation.md (updated for two-service architecture) |
 | User's last confirmed step | Full stack running locally, Next.js + FastAPI architecture |
+| GitHub repo | ✅ https://github.com/Jabir281/BURU.git (initial commit pushed) |
+| Vercel deployment | ✅ vercel.json configured (rootDirectory: frontend/) |
+| Render deployment | ✅ render.yaml + Procfile configured for backend |
+| Backend PORT handling | ✅ backend/main.py now reads PORT env var |
 
 ---
 
@@ -179,3 +183,7 @@ A: Deploy to Streamlit Cloud → share the `.streamlit.app` URL.
 | 2026-06-19 | Updated Groq model from decommissioned llama3-8b-8192 to llama-3.1-8b-instant. |
 | 2026-06-19 | Fixed context overflow: truncated to 4000 chars, reduced top_k from 5 to 3. |
 | 2026-06-19 | Full stack tested: Backend (8000) + Frontend (3000) working. |
+| 2026-06-20 | Git repo initialized, pushed to github.com/Jabir281/BURU.git. |
+| 2026-06-20 | Vercel deployment files added: vercel.json, .gitignore updated. |
+| 2026-06-20 | Render deployment files added: render.yaml, Procfile. |
+| 2026-06-20 | Backend/requirements.txt removed (duplicate of root requirements.txt). |
